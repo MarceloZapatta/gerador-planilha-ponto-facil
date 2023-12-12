@@ -25,7 +25,9 @@
         <option value="11" <?php echo date('m') === '11' ? 'selected' : '' ?>>Novembro</option>
         <option value="12" <?php echo date('m') === '12' ? 'selected' : '' ?>>Dezembro</option>
       </select>
-    </div>
+    </div><br>
+    <label for="excluir-feriados"><input name="excluir-feriados" type="checkbox" value="1" /> Excluir dias trabalhados em feriado</label>
+    <br>
     <button submit>Gerar</button>
   </form>
 </body>
